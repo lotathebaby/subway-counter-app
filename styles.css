@@ -1,0 +1,39 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1597629623484-27ba27a4e47f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3Vid2F5JTIwc3RhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  position: relative;
+  top: 25%;
+  padding: 20px 0;
+}
+#counter {
+  font-weight: 800;
+  font-family: helvetica;
+  font-size: 3em;
+}
+#number {
+  font-size: 3em;
+  font-family: Arial;
+  color: red;
+}
+button {
+  width: 150px;
+  height: 35px;
+  margin: 0 10px;
+  background: black;
+  font-size: 14px;
+  color: white;
+}
+@media screen and (min-width: 305px) and (max-width: 500px) {
+  .buttons {
+    display: grid;
+    grid-template: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    place-items: center;
+  }
+  #counter {
+    color: blue;
+  }
+}
